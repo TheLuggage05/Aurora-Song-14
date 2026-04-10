@@ -91,6 +91,43 @@
     state: eyes_jumper4
   shader: unshaded
 
+- type: marking
+  id: SpiderGlowEyes
+  bodyPart: Eyes
+  markingCategory: Eyes
+  speciesRestriction: [ Arachnid ]
+  forcedColoring: true
+  followSkinColor: false
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
+    state: spidergloweyes
+  shader: unshaded
+
+- type: marking
+  id: SpiderEyesMulti
+  bodyPart: Eyes
+  markingCategory: Eyes
+  speciesRestriction: [ Arachnid ]
+  forcedColoring: false
+  followSkinColor: false
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
+    state: spidereyesmulti1
+  - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
+    state: spidereyesmulti2
+  - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
+    state: spidereyesmulti3
+  - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
+    state: spidereyesmulti4
+
 # Head
 - type: marking
   id: ArachnidHeadSegments
@@ -127,6 +164,18 @@
     state: chest_segments1
   - sprite: _Impstation/Mobs/Customization/Arachnid/chest.rsi
     state: chest_segments2
+
+- type: marking
+  id: SpiderMirror
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ Arachnid ]
+  forcedColoring: false
+  followSkinColor: false
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
+    state: spidermirror
+  shader: unshaded
 
 # Arms
 - type: marking
@@ -177,6 +226,38 @@
     state: leg_r_segments1
   - sprite: _Impstation/Mobs/Customization/Arachnid/legs.rsi
     state: leg_r_segments2
+
+# Tail
+- type: marking
+  id: AbdomenBasic
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Arachnid ]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: abdomenbasic1
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: abdomenbasic2
+
+- type: marking
+  id: AbdomenWidow
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Arachnid ]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: widow1
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: widow2
+
+- type: marking
+  id: CreepyArms
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Arachnid ]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: creepy
 
 # Overlay
 - type: marking
