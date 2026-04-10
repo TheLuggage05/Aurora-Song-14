@@ -2,7 +2,7 @@
   id: MessyPonytail
   bodyPart: Hair
   markingCategory: Hair
-  speciesRestriction: [ Human, Dwarf, SlimePerson ]
+  speciesRestriction: [ Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, Harpy ] # Aurora Song edit to add Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, and Harpy
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: messyponytail
@@ -11,7 +11,7 @@
   id: HumanoidEyebags
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, SlimePerson, Reptilian, Dwarf ]
+  speciesRestriction: [ Human, SlimePerson, Reptilian, Dwarf, Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, Harpy ] # Aurora Song edit to add Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, and Harpy
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebags
@@ -20,7 +20,7 @@
   id: HumanoidAbs
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [ Human, Dwarf, Arachnid, Reptilian, SlimePerson ]
+  speciesRestriction: [ Human, Dwarf, Arachnid, Reptilian, SlimePerson, Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, Harpy ] # Aurora Song edit to add Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, and Harpy
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
@@ -30,7 +30,7 @@
   id: EyebrowsBig
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, Harpy ] # Aurora Song edit to add Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, and Harpy
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebrowsthick
@@ -39,7 +39,7 @@
   id: EyebrowsBigger
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, Harpy ] # Aurora Song edit to add Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, and Harpy
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebrowsultra
@@ -48,7 +48,7 @@
   id: EyebrowsUnibrow
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [ Human, Dwarf ]
+  speciesRestriction: [ Human, Dwarf, Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, Harpy ] # Aurora Song edit to add Oni, Goblin, Felinid, Sheleg, Tajaran, Feroxi, Rodentia, and Harpy
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebrowsunibrow

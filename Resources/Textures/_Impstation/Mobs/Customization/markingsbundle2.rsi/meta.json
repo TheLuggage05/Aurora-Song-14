@@ -181,6 +181,10 @@
     {
       "name": "creepy",
       "directions": 4
+    },
+    {
+      "name": "messyponytail",
+      "directions": 4
     }
   ]
 }
