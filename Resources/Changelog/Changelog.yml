@@ -4793,3 +4793,10 @@ Entries:
   id: 9437
   time: '2026-05-03T20:01:56.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1015
+- author: mart33no
+  changes:
+    - type: Add
+      message: Added a long snake tail for Reptilians.
+  id: 9438
+  time: '2026-05-03T22:40:30.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/948
