@@ -29840,22 +29840,20 @@ entities:
     - type: Transform
       pos: 20.662685,1.9636676
       parent: 1
-- proto: NFHolopadShip
+- proto: ASHolopadAlleyShipyards
   entities:
   - uid: 6126
     components:
     - type: Transform
       pos: -15.5,-13.5
       parent: 1
-- proto: NFHolopadTinnia
+- proto: ASHolopadAlleyBar
   entities:
   - uid: 3925
     components:
     - type: Transform
       pos: -10.5,-27.5
       parent: 1
-    - type: Label
-      currentLabel: Mercenary Bar, The Alley
 - proto: NFPlushieEngineer
   entities:
   - uid: 3926
