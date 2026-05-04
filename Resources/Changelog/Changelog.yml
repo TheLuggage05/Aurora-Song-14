@@ -4875,3 +4875,10 @@ Entries:
   id: 9447
   time: '2026-05-04T20:35:38.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/925
+- author: CombustibleToast
+  changes:
+    - type: Fix
+      message: Upgrading your CHIMP cannon no longer makes the battery vanish.
+  id: 9448
+  time: '2026-05-04T20:50:58.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1019
