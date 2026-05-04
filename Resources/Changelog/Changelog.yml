@@ -4896,3 +4896,10 @@ Entries:
   id: 9450
   time: '2026-05-04T21:35:26.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/971
+- author: FancyPlanks
+  changes:
+    - type: Tweak
+      message: A bunch of the tables look a little different...
+  id: 9451
+  time: '2026-05-04T21:55:23.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/952
