@@ -4857,3 +4857,12 @@ Entries:
   id: 9445
   time: '2026-05-04T11:31:37.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1018
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: configurators on maps, various
+    - type: Fix
+      message: LBK gridID/becomesstation mismatch with protos
+  id: 9446
+  time: '2026-05-04T13:03:05.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1022
