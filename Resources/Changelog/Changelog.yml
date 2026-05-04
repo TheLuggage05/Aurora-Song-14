@@ -4818,3 +4818,10 @@ Entries:
   id: 9440
   time: '2026-05-04T05:27:19.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1020
+- author: entings
+  changes:
+    - type: Fix
+      message: Shock collars are now fully functional.
+  id: 9441
+  time: '2026-05-04T05:31:15.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1021
