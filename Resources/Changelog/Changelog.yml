@@ -4866,3 +4866,12 @@ Entries:
   id: 9446
   time: '2026-05-04T13:03:05.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/1022
+- author: entings
+  changes:
+    - type: Add
+      message: >-
+        Ported a few markings for arachnids, reptilians, and moths from
+        Impstation.
+  id: 9447
+  time: '2026-05-04T20:35:38.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/925
