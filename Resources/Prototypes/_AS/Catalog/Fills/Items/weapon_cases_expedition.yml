@@ -95,7 +95,7 @@
   parent: WeaponCaseLong
   id: WeaponCaseLongHushpupExpeditionT4
   suffix: Dungeon, Hushpup
-  #categories: [ HideSpawnMenu ]
+  categories: [ HideSpawnMenu ]
   components:
   - type: EntityTableContainerFill # Aurora's Song - StorageFill>EntityTableContainerFill
     containers:
