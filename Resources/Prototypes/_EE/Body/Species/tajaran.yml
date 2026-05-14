@@ -1,16 +1,59 @@
 - type: entity
+  parent: BaseSpeciesAppearance
+  id: AppearanceTajaran
+  name: tajaran appearance
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+  - type: EntityTableContainerFill
+    containers:
+      body_organs: !type:AllSelector
+        children:
+        - id: OrganTajaranTorso
+        - id: OrganTajaranHead
+        - id: OrganTajaranArmLeft
+        - id: OrganTajaranArmRight
+        - id: OrganTajaranHandRight
+        - id: OrganTajaranHandLeft
+        - id: OrganTajaranLegLeft
+        - id: OrganTajaranLegRight
+        - id: OrganTajaranFootLeft
+        - id: OrganTajaranFootRight
+        - id: OrganHumanBrain
+        - id: OrganHumanEyes
+        - id: OrganHumanTongue
+        - id: OrganHumanAppendix
+        - id: OrganHumanEars
+        - id: OrganHumanLungs
+        - id: OrganAnimalHeart
+        - id: OrganVulpkaninStomach
+        - id: OrganAnimalLiver
+        - id: OrganHumanKidneys
+  - type: HumanoidAppearance
+    species: Tajaran
+    hideLayersOnEquip:
+    - Snout
+    - SnoutCover
+    - HeadTop
+    - HeadSide
+    - FacialHair
+    - Hair
+
+- type: entity
   name: Urist McTajaran
-  parent: BaseMobSpeciesOrganic
+  parent:
+  - AppearanceTajaran
+  - BaseSpeciesMobOrganic
   id: MobTajaranBase
-  abstract: true
   components:
   - type: Hunger
     baseDecayRate: 0.02083333332 # 25% more than default
-  - type: Thirst
-  # - type: Sprite Aurora's Song - Commenting this out as a lot of standard height species do not have this in their yml. See humans and vulpkanin as example.
-    # scale: 0.8, 0.8
-  - type: HumanoidAppearance
-    species: Tajaran
+# Aurora's Song - Remove densities
  # - type: Fixtures
    # fixtures: # TODO: This needs a second fixture just for mob collisions. Aurora's Song - Removed this as mob collision isn't even used and the density negatively affected drag speed
      # fix1:
@@ -23,9 +66,6 @@
        # - MobMask
        # layer:
        # - MobLayer
-  - type: Body
-    prototype: Tajaran
-    requiredLegs: 2
   - type: Damageable
     damageModifierSet: Tajaran
   - type: SlowOnDamage
@@ -33,11 +73,6 @@
       60: 0.85  # 0.7 is base speed.
       80: 0.75  # 0.5 is base speed.
   - type: Carriable # Carrying system from nyanotrasen.
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-    - id: FoodMeatHuman
-      amount: 5
   #- type: TemperatureProtection # fur is a good insulator, actually Aurora song: So, I know we
   #  heatingCoefficient: 0.7 # Aurora Song 0.1>0.7,
   #  coolingCoefficient: 0.7 # Aurora Song 0.1>0.7, Tajaran couldnt be cooled down before
@@ -125,14 +160,56 @@
     normalBodyTemperature: 311.76
   - type: Wagging # Aurora's Song - Add wagging
 
+- type: entity
+  parent: OrganBase
+  id: OrganTajaran
+  abstract: true
+  suffix: Tajaran
 
 - type: entity
-  save: false
-  name: Urist McHands
-  parent: MobHumanDummy
-  id: MobTajaranDummy
-  categories: [ HideSpawnMenu ]
-  description: A dummy tajaran meant to be used in character setup.
+  parent: OrganTajaran
+  id: OrganTajaranExternal
+  abstract: true
   components:
-  - type: HumanoidAppearance
-    species: Tajaran
+  - type: Sprite
+    sprite: _EE/Mobs/Species/Tajaran/parts.rsi
+
+- type: entity
+  parent: [ OrganBaseTorso, OrganTajaranExternal ]
+  id: OrganTajaranTorso
+
+- type: entity
+  parent: [ OrganBaseHead, OrganTajaranExternal ]
+  id: OrganTajaranHead
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganTajaranExternal ]
+  id: OrganTajaranArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganTajaranExternal ]
+  id: OrganTajaranArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganTajaranExternal ]
+  id: OrganTajaranHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganTajaranExternal ]
+  id: OrganTajaranHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganTajaranExternal ]
+  id: OrganTajaranLegLeft
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganTajaranExternal ]
+  id: OrganTajaranLegRight
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganTajaranExternal ]
+  id: OrganTajaranFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganTajaranExternal ]
+  id: OrganTajaranFootRight
