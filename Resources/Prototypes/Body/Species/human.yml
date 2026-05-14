@@ -51,6 +51,8 @@
     spawned:
     - id: FoodMeatHuman
       amount: 5
+  - type: Speech # Frontier
+    allowedEmotes: [ 'Belch' ] # Frontier
 
 - type: entity
   parent: OrganBase

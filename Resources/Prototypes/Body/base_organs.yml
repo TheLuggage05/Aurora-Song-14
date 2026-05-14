@@ -250,6 +250,7 @@
     - id: Medicine
     - id: Poison
     - id: Narcotic
+    - id: Cryogenic # Aurora's Song - Metabolizes cryogenics separately
 
 - type: entity
   parent: OrganBase

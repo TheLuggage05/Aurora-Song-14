@@ -68,6 +68,14 @@
     accent: dwarf
   - type: Speech
     speechSounds: Bass
+    allowedEmotes: ['Belch'] # Frontier
+  - type: NpcFactionMember # Aurora's Song - Add this to dwarf regular
+    factions:
+    - NanoTrasen
+    - Dwarf # Frontier
+  - type: InnateMiningScannerViewer # Frontier
+    pingSound: null # Frontier
+    viewRange: 5 # Frontier
 
 - type: entity
   parent: OrganBase

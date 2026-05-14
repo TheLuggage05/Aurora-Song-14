@@ -32,6 +32,10 @@
         - id: OrganArachnidKidneys
   - type: HumanoidAppearance
     species: Arachnid
+    hideLayersOnEquip: # Aurora's Song - Hide your dang fangs
+    - Snout
+    - HeadTop
+    - HeadSide
 
 - type: entity
   parent:

@@ -111,7 +111,7 @@
       - !type:HealthChange
         damage:
           types:
-            Heat: 0.05
+            Heat: 1 # Aurora's Song 0.05>1
       - !type:PopupMessage
         type: Local
         visualType: Large
@@ -130,6 +130,7 @@
       types:
         Asphyxiation: -1.0
     maxSaturation: 15
+  - type: SnoutHelmet # Aurora's Song - Animal Slimes
 
 - type: entity
   parent: OrganBase

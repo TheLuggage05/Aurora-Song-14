@@ -48,6 +48,8 @@
     spawned:
     - id: FoodBakedCookie
       amount: 5
+    - id: FoodCakeBirthdaySlice # Aurora's Song - added cake into the butchery
+      amount: 3
   - type: Damageable
     damageModifierSet: Gingerbread
   - type: DamageVisuals
@@ -64,18 +66,19 @@
         Quantity: 100
       - ReagentId: Butter
         Quantity: 200
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeCircle
-          radius: 0.35
-        density: 100 #fairly light
-        restitution: 0.0
-        mask:
-          - MobMask
-        layer:
-          - MobLayer
+#  Aurora's Song - Standardize density by removing it here
+#  - type: Fixtures
+#    fixtures:
+#      fix1:
+#        shape:
+#          !type:PhysShapeCircle
+#          radius: 0.35
+#        density: 100 #fairly light
+#        restitution: 0.0
+#        mask:
+#          - MobMask
+#        layer:
+#          - MobLayer
   - type: TypingIndicator
     proto: gingerbread
 

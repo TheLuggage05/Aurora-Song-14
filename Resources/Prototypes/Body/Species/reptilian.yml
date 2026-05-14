@@ -59,6 +59,7 @@
   - type: HumanoidAppearance
     species: Reptilian
     hideLayersOnEquip:
+    - Hair # Aurora's Song - Hair just so they can have a lil more customization
     - Snout
     - HeadTop
     - HeadSide
@@ -83,7 +84,7 @@
   - type: Speech
     speechSounds: Lizard
     speechVerb: Reptilian
-    allowedEmotes: ['Thump']
+    allowedEmotes: ['Thump', 'Hiss'] # Imp: add ReptilianHiss # Aurora's Song - ReptilianHiss>Hiss
   - type: TypingIndicator
     proto: lizard
   - type: Vocal
@@ -121,6 +122,13 @@
       295: 0.8
       285: 0.7
   - type: Wagging
+  - type: ShortWhitelist # Frontier
+    scale: 0.8 # Frontier
+    density: 140 # Frontier
+    pseudoItem: true # Frontier
+    cosmeticOnly: false # Frontier
+  - type: TallWhitelist # Frontier
+    scale: 1.2 # Frontier
 
 - type: entity
   parent: OrganBase
@@ -224,14 +232,15 @@
   id: OrganReptilianStomach
   components:
   - type: Stomach
-    specialDigestible:
-      tags:
-      - Fruit
-      - ReptilianFood
-      - Meat
-      - Pill
-      - Crayon
-      - Paper
+# Frontier
+#    specialDigestible:
+#      tags:
+#      - Fruit
+#      - ReptilianFood
+#      - Meat
+#      - Pill
+#      - Crayon
+#      - Paper
 
 - type: entity
   parent: [ OrganBaseLiver, OrganSpriteHumanInternal, OrganReptilianInternal, OrganReptilianMetabolizer ]

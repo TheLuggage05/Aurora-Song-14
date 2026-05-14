@@ -138,6 +138,8 @@
     allowedStates:
     - Dead
   - type: Rootable
+  - type: ProtectedFromStepTriggers # Frontier
+  - type: FTLKnockdownImmune # Frontier
 
 - type: entity
   parent: OrganBase
